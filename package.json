@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://github.com/ardi-setyawan/ardi-.github.io.git",
   "name": "myportfoliosite",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +14,8 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "npm dep",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
