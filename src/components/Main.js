@@ -10,7 +10,7 @@ import Project from './Project';
 
 const Main =() => (
     <HashRouter>
-        <Route exact path="/" component={Landingpage}/>
+        <Route exact path="/Landingpage" component={Landingpage}/>
         <Route path="/Aboutme" component={Aboutme}/>
         <Route path="/Contact" component={Contact}/>
         <Route path="/Project" component={Project}/>
