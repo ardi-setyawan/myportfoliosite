@@ -5,7 +5,7 @@ import {Card, CardActions, CardTitle, CardText, Button} from 'react-mdl';
 class Project extends Component{
     constructor(props){
         super(props);
-        this.state = {setTab : 1 };
+        this.state = {setTab : 0 };
     }
 
     toogleCategories(){

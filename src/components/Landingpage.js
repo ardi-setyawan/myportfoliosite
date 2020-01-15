@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 class Landingpage extends Component{
-    componentDidMount(prevProps, prevState)
+    componentDidMount();
+    componentDidUpdate();
+
 
     render(){
         return(
