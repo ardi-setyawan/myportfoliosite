@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+
 class Landingpage extends Component{
-    componentDidMount();
-    componentDidUpdate();
-
-
     render(){
         return(
            <div style={{width : '100%', margin: 'auto'}}>
