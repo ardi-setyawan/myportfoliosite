@@ -53,7 +53,4 @@ class Landingpage extends Component{
     }
 
 }
-return(
-    console.log("test")
-)
 export default Landingpage;
