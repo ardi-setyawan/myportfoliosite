@@ -11,7 +11,7 @@ import Landingpage from './components/Landingpage';
 
 ReactDOM.render(
     <div>
-    <BrowserRouter basename="myportfoliosite">
+    <BrowserRouter>
         <Route exact path ="/" component={Landingpage}>
             </Route>
     <App />
