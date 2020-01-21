@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { HashRouter} from 'react-router-dom';
 
 import Landingpage from './Landingpage';
 import Resume from './Resume';
