@@ -15,7 +15,6 @@ const Main =() => (
         <Route path="/Contact" component={Contact}/>
         <Route path="/Project" component={Project}/>
         <Route path="/Resume" component={Resume}/>
-        
     </HashRouter>
 );
 
