@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, HashRouter } from 'react-router-dom';
+import { Route,  } from 'react-router-dom';
 
 import Landingpage from './Landingpage';
 import Resume from './Resume';
@@ -15,7 +15,7 @@ const Main =() => (
         <Route path="/Contact" component={Contact}/>
         <Route path="/Project" component={Project}/>
         <Route path="/Resume" component={Resume}/>
-        </Switch>
+    </Switch>
 );
 
 
