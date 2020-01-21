@@ -10,10 +10,12 @@ import Landingpage from './components/Landingpage';
 
 
 ReactDOM.render(
+    <div>
     <BrowserRouter basename="myportfoliosite">
         <Route exact path ="/" component={Landingpage}>
             </Route>
     <App />
     </BrowserRouter>
+    </div>
 , document.getElementById('root'));
 serviceWorker.unregister();
