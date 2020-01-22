@@ -3,6 +3,7 @@ import './App.css';
 import { Layout , Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/Main'
 import { Link } from 'react-router-dom';
+import Landingpage from './components/Landingpage';
 
 class App extends Component {
   render(){
@@ -28,6 +29,7 @@ class App extends Component {
             <Content>
 
                 <div className="page-content" />
+                <Landingpage/>
                 <Main/>
             </Content>
         </Layout>
