@@ -1,5 +1,6 @@
 import React from 'react';
-import { Route,  } from 'react-router-dom';
+import { Route } from 'react-router-dom';
+import { Route} from 'react-mdl';
 
 import Landingpage from './Landingpage';
 import Resume from './Resume';
@@ -10,7 +11,7 @@ import { Switch } from 'react-mdl';
 
 const Main =() => (
     <Switch>
-        <Route path="/" component={Landingpage}/>
+        <Route exact path="/" component={Landingpage}/>
         <Route path="/Aboutme" component={Aboutme}/>
         <Route path="/Contact" component={Contact}/>
         <Route path="/Project" component={Project}/>
