@@ -6,8 +6,6 @@ import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
 import { BrowserRouter, Route } from 'react-router-dom';
-import Landingpage from './components/Landingpage';
-
 
 ReactDOM.render(
     
