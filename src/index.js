@@ -5,12 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
-import { BrowserRouter, } from 'react-router-dom';
-import {Exchange} from 'react-router-dom';
+import { BrowserRouter, Route} from 'react-router-dom';
+import Landingpage from './components/Landingpage';
 
 ReactDOM.render(
     <BrowserRouter basename="Landingpage">
-        <Route exact path="/"  component={Exchange} ></Route>
+        <Route exact path="/"  component={Landingpage} ></Route>
     <App />
     </BrowserRouter>
 , document.getElementById('root'));
