@@ -5,11 +5,13 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
-import { BrowserRouter,} from 'react-router-dom';
+import { BrowserRouter, Route,} from 'react-router-dom';
+import Exchange from 'react-dom'
 
 ReactDOM.render(
     
-    <BrowserRouter>
+    <BrowserRouter basename="Landingpage">
+        <Route exact path ="/" componennt={Exchange}></Route>
     <App />
     </BrowserRouter>
 , document.getElementById('root'));
