@@ -10,14 +10,7 @@ import Landingpage from './components/Landingpage';
 
 
 ReactDOM.render(
-<<<<<<< HEAD
-    <div>
     <BrowserRouter>
-        <Route exact path ="#" component={Landingpage}>
-            </Route>
-=======
-    <BrowserRouter basename="Landingpage">
->>>>>>> branch1
     <App />
     </BrowserRouter>
 , document.getElementById('root'));
