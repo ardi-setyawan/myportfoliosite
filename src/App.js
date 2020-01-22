@@ -29,7 +29,6 @@ class App extends Component {
             <Content>
 
                 <div className="page-content" />
-                <Landingpage/>
                 <Main/>
             </Content>
         </Layout>

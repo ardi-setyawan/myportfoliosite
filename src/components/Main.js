@@ -10,7 +10,7 @@ import { Switch } from 'react-mdl';
 
 const Main =() => (
     <Switch>
-        <Route exact path="/" component={Landingpage}/>
+        <Route path="/Landingpage" component={Landingpage}/>
         <Route path="/Aboutme" component={Aboutme}/>
         <Route path="/Contact" component={Contact}/>
         <Route path="/Project" component={Project}/>
