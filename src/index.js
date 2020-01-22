@@ -9,7 +9,7 @@ import { BrowserRouter, Route} from 'react-router-dom';
 import Landingpage from './components/Landingpage';
 
 ReactDOM.render(
-    <BrowserRouter basename="Landingpage">
+    <BrowserRouter>
         <Route exact path="/"  component={Landingpage} ></Route>
     <App />
     </BrowserRouter>
