@@ -69,6 +69,7 @@ height: 100%;
   
 }
 
+/* css contact page */
 .contact-body{
   margin : auto;
   background: grey;
@@ -109,3 +110,12 @@ height: 100%;
   font-size: 66px;
   padding-right: 5rem;
 }
+
+/* css resume page */
+
+.resume-right-col {
+  background: #27221f;
+  color: white;
+padding : 2em;
+}
+
